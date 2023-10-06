@@ -1,0 +1,41 @@
+.title{
+    padding: 16px;
+    text-align: center;
+}
+.house-list{
+    background-color:lightblue;
+}
+.house-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .house-card h1 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .house-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .house-card li {
+    margin: 4px 0;
+  }
+  
+  .house-card button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
